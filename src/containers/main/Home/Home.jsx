@@ -6,6 +6,7 @@ export default function Home() {
     <div className="container">
       <div className="banner">
         <h1> Enter to Valhala!</h1>
+        <p>B.DUKOV 2024 &reg;</p>
       </div>
     </div>
   );
