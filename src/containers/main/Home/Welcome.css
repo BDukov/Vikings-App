@@ -16,26 +16,40 @@
   /* border-radius: 10px; */
 }
 
-.banner h1 {
-    padding: 0;
+/* .banner h1 {
+  padding: 0;
   background: linear-gradient(to bottom, #8b0000, #c0c0c0);
   align-items: center;
   justify-content: center;
-  color: transparent; 
-  background-clip: text; 
+  color: transparent;
+  background-clip: text;
   font-size: 5em;
   position: static;
   cursor: pointer;
+} */
+.fire {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  filter: url(#flame)
+}
+
+.banner h1 {
+  color: #ffeb4b;
+  position: relative;
+  font-weight: 800;
+  text-shadow: 0 0 20px #f62817, 0 0 1em #f62817, 0 0 1.5em #f62817, 0 0 2em #f62817, 0 0 2.5em #f62817;
+  -webkit-box-reflect: below -1em linear-gradient(transparent, #0006);
 }
 
 .banner h1:hover {
-    font-size: 5.5em;
-    background: linear-gradient(to bottom, #ffd700, #8b0000);
-    color: transparent; 
-    background-clip: text; 
-    transition-duration: 2s;
+  font-size: 5.5em;
+  background: linear-gradient(to bottom, #ffd700, #8b0000);
+  color: transparent;
+  background-clip: text;
+  transition-duration: 2s;
 }
 
 .banner p {
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
