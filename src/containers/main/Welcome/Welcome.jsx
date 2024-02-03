@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Welcome() {
   return (
-    <div className="container">
+    <div className="container-welcome">
       <div className="banner">
         {/* <Link to={`/home`}> */}
         <div className="fire">

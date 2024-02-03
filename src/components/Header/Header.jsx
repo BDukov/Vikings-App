@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div className="container">
+
       <div className="navigation">
         <div className="home">
           <Link to={`/`}>Vikings Home</Link>
@@ -26,6 +26,6 @@ export default function Header() {
           </ul>
         </div>
       </div>
-    </div>
+
   );
 }

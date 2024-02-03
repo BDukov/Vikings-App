@@ -7,19 +7,19 @@ import Footer from "../../../components/Footer/Footer";
 export default function Home() {
   return (
     <>
-    <div className="container">
 
 
        <Header></Header>
+    <div className="container-home">
 
        {/* IT MUST BE SLIDER WITH BANNERS */}
         <div className="banner-home-page">
         </div>
       <h1>Hello</h1>
 
+    </div>
         <Footer></Footer>
 
-    </div>
 
     </>
   );

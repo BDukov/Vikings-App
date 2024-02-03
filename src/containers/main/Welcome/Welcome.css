@@ -1,5 +1,6 @@
-.container {
+.container-welcome {
   height: 100vh;
+  width: 100vw;
 }
 
 .banner {
