@@ -40,6 +40,7 @@
   font-weight: 800;
   text-shadow: 0 0 20px #f62817, 0 0 1em #f62817, 0 0 1.5em #f62817, 0 0 2em #f62817, 0 0 2.5em #f62817;
   -webkit-box-reflect: below -1em linear-gradient(transparent, #0006);
+  cursor: pointer;
 }
 
 .banner h1:hover {
@@ -52,4 +53,8 @@
 
 .banner p {
   font-size: 1.1em;
+}
+
+.banner a {
+  text-decoration: none;
 }

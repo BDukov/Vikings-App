@@ -1,5 +1,5 @@
 import "./Welcome.css";
-// import Link from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Welcome() {
   return (
@@ -7,7 +7,7 @@ export default function Welcome() {
       <div className="banner">
         {/* <Link to={`/home`}> */}
         <div className="fire">
-          <h1> Enter to Valhalla!</h1>
+          <Link to={`/home`}><h1> Enter Valhalla</h1></Link>
           <svg>
             <filter id="flame">
               <feTurbulence id="turbulence" baseFrequency="0.1 0.1" numOctaves="3" seed="4">
