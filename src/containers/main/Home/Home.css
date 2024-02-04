@@ -11,7 +11,7 @@
   left: 25%;
 }
 
-.fire {
+.container-home .fire {
   width: 3em;
   height: 2em;
   position: relative;
@@ -19,7 +19,7 @@
   filter: url(#flame);
 }
 
-.fire h1 {
+.container-home .fire h1 {
   width: 50vw;
   color: #ffeb4b;
   position: relative;
