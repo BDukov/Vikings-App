@@ -8,31 +8,38 @@ import BannerSlider from "../../../components/Slider/BannerSlider";
 export default function Home() {
   return (
     <>
+      <Header></Header>
 
-
-       <Header></Header>
-
-       {/* IT MUST BE SLIDER WITH BANNERS */}
-    <div className="container-home">
+      {/* IT MUST BE SLIDER WITH BANNERS */}
+      <div className="container-home">
         <div className="fire">
-
-      <h1>Welcome to Valhalla</h1>
-      <svg>
+          <h1>Welcome to Valhalla</h1>
+          <svg>
             <filter id="flame">
-              <feTurbulence id="turbulence" baseFrequency="0.1 0.1" numOctaves="3" seed="4">
-                <animate attributeName="baseFrequency" dur="8s" values="0.1 0.1; 0.13 0.13" repeatCount="indefinite"></animate>
+              <feTurbulence
+                id="turbulence"
+                baseFrequency="0.1 0.1"
+                numOctaves="3"
+                seed="4"
+              >
+                <animate
+                  attributeName="baseFrequency"
+                  dur="8s"
+                  values="0.1 0.1; 0.13 0.13"
+                  repeatCount="indefinite"
+                ></animate>
               </feTurbulence>
-              <feDisplacementMap in="SourceGraphic" scale="4"></feDisplacementMap>
+              <feDisplacementMap
+                in="SourceGraphic"
+                scale="4"
+              ></feDisplacementMap>
             </filter>
           </svg>
         </div>
+      </div>
+      <BannerSlider></BannerSlider>
 
-        </div>
-       <BannerSlider></BannerSlider>
-
-        <Footer></Footer>
-
-
+      <Footer></Footer>
     </>
   );
 }

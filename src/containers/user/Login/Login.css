@@ -1,64 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap");
 
 #login {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3em;
-    background-image: url("../../../assets/login.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  background-image: url("../../../assets/login.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.name, .password, .email {
-    padding: 2em 1.5em;
-    border: 2px solid  #ccc;
-    border-radius: 0.3em;
-    border-top-right-radius: 1em;
-    border-bottom-left-radius: 1em;
-    width: 30vw
+.name,
+.password,
+.email {
+  padding: 2em 1.5em;
+  border: 2px solid #ccc;
+  border-radius: 0.3em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  width: 30vw;
 }
 
 #login label {
-    font-size: 1.5em;
-    margin-top: 1em;
-    color: #ffeb4b;
-    position: relative;
-    font-weight: 800;
-    text-shadow: 0 0 20px #f62817, 0 0 1em #f62817, 0 0 1.5em #f62817, 0 0 2em #f62817, 0 0 2.5em #f62817;
-    -webkit-box-reflect: below -1em linear-gradient(transparent, #0006);
+  font-size: 1.5em;
+  margin-top: 1em;
+  color: #ffeb4b;
+  position: relative;
+  font-weight: 800;
+  text-shadow: 0 0 20px #f62817, 0 0 1em #f62817, 0 0 1.5em #f62817,
+    0 0 2em #f62817, 0 0 2.5em #f62817;
+  -webkit-box-reflect: below -1em linear-gradient(transparent, #0006);
 }
 
 #login input {
-    border-radius: 50px;
-    border-bottom-right-radius: 1em;
-    line-height: 1.5em;
-    width: 15vw;
-    /* font-family: 'Cinzel', serif; */
-    /* font-family: 'Indie Flower', cursive; */
-    font-family: 'Permanent Marker', cursive;
-    color: #FF5733;
-    /* color: goldenrod; */
-    text-align: center;
-    font-weight: 800;
-    font-size: 1.2em;
+  border-radius: 50px;
+  border-bottom-right-radius: 1em;
+  line-height: 1.5em;
+  width: 15vw;
+  /* font-family: 'Cinzel', serif; */
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: "Permanent Marker", cursive;
+  color: #ff5733;
+  /* color: goldenrod; */
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.2em;
 }
 
 .fire {
-    width:3em;
-    height: 2em;;
-    position: relative;
-    text-align: center;
-    filter: url(#flame);
-  }
+  width: 3em;
+  height: 2em;
+  position: relative;
+  text-align: center;
+  filter: url(#flame);
+}
 
-  .name, .email, .password {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.name,
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

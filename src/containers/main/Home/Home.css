@@ -6,11 +6,10 @@
   justify-content: center;
   align-items: center;
   height: 6em;
-    position: absolute;
-    z-index: 100;
-    left:25%;
+  position: absolute;
+  z-index: 100;
+  left: 25%;
 }
-
 
 .fire {
   width: 3em;
@@ -21,12 +20,12 @@
 }
 
 .fire h1 {
-    width: 50vw;
-    color: #ffeb4b;
-    position: relative;
-    font-weight: 800;
-    text-shadow: 0 0 20px #f62817, 0 0 1em #f62817, 0 0 1.5em #f62817, 0 0 2em #f62817, 0 0 2.5em #f62817;
-    -webkit-box-reflect: below -1em linear-gradient(transparent, #0006);
-    /* background: red; */
+  width: 50vw;
+  color: #ffeb4b;
+  position: relative;
+  font-weight: 800;
+  text-shadow: 0 0 20px #f62817, 0 0 1em #f62817, 0 0 1.5em #f62817,
+    0 0 2em #f62817, 0 0 2.5em #f62817;
+  -webkit-box-reflect: below -1em linear-gradient(transparent, #0006);
+  /* background: red; */
 }
-
