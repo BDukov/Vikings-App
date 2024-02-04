@@ -27,7 +27,7 @@ export default function Welcome() {
               </feTurbulence>
               <feDisplacementMap
                 in="SourceGraphic"
-                scale="10"
+                scale="8"
               ></feDisplacementMap>
             </filter>
           </svg>
