@@ -2,6 +2,7 @@ import "./Home.css";
 
 import Header from "../../../components/Header/Header";
 import Footer from "../../../components/Footer/Footer";
+import BannerSlider from "../../../components/Slider/BannerSlider";
 // import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <div className="container-home">
 
        {/* IT MUST BE SLIDER WITH BANNERS */}
+       <BannerSlider></BannerSlider>
         <div className="banner-home-page">
         </div>
       <h1>Hello</h1>
