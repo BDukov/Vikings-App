@@ -25,6 +25,12 @@
 
 #login label {
     font-size: 1.5em;
+    margin-top: 1em;
+    color: #ffeb4b;
+    position: relative;
+    font-weight: 800;
+    text-shadow: 0 0 20px #f62817, 0 0 1em #f62817, 0 0 1.5em #f62817, 0 0 2em #f62817, 0 0 2.5em #f62817;
+    -webkit-box-reflect: below -1em linear-gradient(transparent, #0006);
 }
 
 #login input {
@@ -42,3 +48,17 @@
     font-size: 1.2em;
 }
 
+.fire {
+    width:3em;
+    height: 2em;;
+    position: relative;
+    text-align: center;
+    filter: url(#flame);
+  }
+
+  .name, .email, .password {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

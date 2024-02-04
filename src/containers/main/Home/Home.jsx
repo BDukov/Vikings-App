@@ -11,15 +11,25 @@ export default function Home() {
 
 
        <Header></Header>
-    <div className="container-home">
 
        {/* IT MUST BE SLIDER WITH BANNERS */}
-       <BannerSlider></BannerSlider>
-        <div className="banner-home-page">
-        </div>
-      <h1>Hello</h1>
+    <div className="container-home">
+        <div className="fire">
 
-    </div>
+      <h1>Welcome to Valhalla</h1>
+      <svg>
+            <filter id="flame">
+              <feTurbulence id="turbulence" baseFrequency="0.1 0.1" numOctaves="3" seed="4">
+                <animate attributeName="baseFrequency" dur="8s" values="0.1 0.1; 0.13 0.13" repeatCount="indefinite"></animate>
+              </feTurbulence>
+              <feDisplacementMap in="SourceGraphic" scale="4"></feDisplacementMap>
+            </filter>
+          </svg>
+        </div>
+
+        </div>
+       <BannerSlider></BannerSlider>
+
         <Footer></Footer>
 
 

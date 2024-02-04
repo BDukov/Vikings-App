@@ -5,3 +5,7 @@
     height: auto;
     margin: 0 auto;
 }
+
+.slick-next {
+    right: 0;
+}
