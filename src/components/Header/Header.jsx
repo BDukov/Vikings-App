@@ -20,7 +20,7 @@ export default function Header() {
 
         <div className="user">
           <ul id="user">
-            <li>Login</li>
+            <Link to={`/login`}><li>Login</li></Link>
             <li>Logout</li>
             <li>Register</li>
           </ul>

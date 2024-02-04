@@ -1,0 +1,38 @@
+#login {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    background-image: url("../../../assets/login.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.name, .password, .email {
+    padding: 2em 1.5em;
+    border: 2px solid  #ccc;
+    border-radius: 0.3em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    width: 30vw
+}
+
+#login label {
+    font-size: 1.5em;
+}
+
+#login input {
+    border-radius: 50px;
+    border-bottom-right-radius: 1em;
+    line-height: 1.5em;
+    width: 15vw;
+    font-family: 'Cinzel', serif;
+    color: goldenrod;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
