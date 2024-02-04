@@ -25,6 +25,11 @@ li, a {
     color: white;
 }
 
+li:hover, a:hover {
+    color: #FF5733;
+    cursor: pointer;
+}
+
 .home {
     margin: 0 0 0 1em;
     display: flex;
@@ -45,4 +50,15 @@ li, a {
     flex-direction: row;
     justify-content: space-between;
     gap: 1em;
+}
+
+.home img {
+    width: 150px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em
 }

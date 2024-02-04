@@ -6,7 +6,8 @@ export default function Header() {
 
       <div className="navigation">
         <div className="home">
-          <Link to={`/`}>Vikings Home</Link>
+         <Link to={`/`}><img src="./images/logo1.png" alt="" /></Link>
+          <Link to={`/home`}>Home</Link>
         </div>
 
         <div className="nav">
