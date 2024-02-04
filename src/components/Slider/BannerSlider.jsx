@@ -22,13 +22,13 @@ export default function BannerSlider() {
         <Slider {...sliderSettings}>
         <div className='card'>
             <img src="/images/ragnar.jpg" alt=""/>
-          {/* Your content for the first slide */}
+        </div>
+        <div className='card'>
+            <img src="/images/vikings.jpg" alt="" />
         </div>
         <div className='card'>
             <img src="/images/peakpx.jpg" alt="" />
-          {/* Your content for the second slide */}
         </div>
-        {/* Add more slides as needed */}
       </Slider>
         </div>
     )
