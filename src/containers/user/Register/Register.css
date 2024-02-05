@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap");
 
 .register-form {
-  height: 80vh;
+  height: 45em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,7 +25,7 @@
 .password,
 .email {
   padding: 2em 1.5em;
-  width: 30vw;
+  width: 30em;
 }
 
 #register label {
@@ -39,7 +39,7 @@
   border-radius: 50px;
   border-bottom-right-radius: 1em;
   line-height: 1.5em;
-  width: 15vw;
+  width: 15em;
 
   font-family: "Permanent Marker", cursive;
   color: #ff5733;
@@ -62,7 +62,7 @@
   padding: 1em 1em;
   border-radius: 50px;
   line-height: 1.5em;
-  width: 15vw;
+  width: 15em;
   cursor: pointer;
   font-weight: 700;
   font-size: 1em;
@@ -77,4 +77,22 @@
 #loginMsg {
   margin-top: 0.5em;
   font-size: 0.8em;
+}
+
+@media (max-width: 500px) {
+  #register {
+    width: 150px;
+  }
+
+  .email,
+  .password,
+  .button {
+    width: 200px;
+  }
+}
+
+@media (max-width: 350px) {
+  #register input {
+    width: 150px;
+  }
 }

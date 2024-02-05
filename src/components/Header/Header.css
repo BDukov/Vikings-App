@@ -37,6 +37,10 @@ a:hover {
   gap: 1em;
 }
 
+.nav #nav #menu {
+  display: none;
+}
+
 .user #user {
   margin: 0 1em 0 0;
   display: flex;
@@ -54,4 +58,53 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   gap: 2em;
+}
+
+#user-icon {
+  display: none;
+}
+
+.user {
+  display: flex;
+}
+
+@media (max-width: 920px) {
+  .nav #nav li {
+    display: none;
+  }
+
+  .nav #nav #menu {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .nav #nav #menu:hover + ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3.5em;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+  }
+
+  .nav #nav #menu:hover + ul li {
+    display: block;
+    margin: 0.5em 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .user #user {
+    display: none;
+  }
+
+  .user #user-icon {
+    display: flex;
+    margin: 0 3em;
+  }
+
+  .home #logo {
+    display: none;
+  }
 }
