@@ -11,28 +11,26 @@ export default function Login() {
       <Header />
       <div className="login-form">
         <form id="login">
-
-
           <div className="email">
-              <label htmlFor="">Email</label>
+            <label htmlFor="">Email</label>
             <br />
             <input type="text" />
-            </div>
-
+          </div>
 
           <div className="password">
-              <label htmlFor="">Password</label>
+            <label htmlFor="">Password</label>
             <br />
             <input type="password" />
           </div>
 
-
-
-    <div className="button">
-          <button type="submit" className="btn">Login</button>
-            <p id="signUpMsg">Don't have an account? <Link>Register now!</Link></p>
-    </div>
-
+          <div className="button">
+            <button type="submit" className="btn">
+              Login
+            </button>
+            <p id="signUpMsg">
+              Don't have an account? <Link>Register now!</Link>
+            </p>
+          </div>
         </form>
       </div>
       <Footer />

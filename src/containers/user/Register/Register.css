@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap");
 
-.login-form {
+.register-form {
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
   background-size: cover;
 }
 
-#login {
+#register {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,14 +28,14 @@
   width: 30vw;
 }
 
-#login label {
+#register label {
   font-size: 1.5em;
   margin-top: 1em;
   position: relative;
   font-weight: 800;
 }
 
-#login input {
+#register input {
   border-radius: 50px;
   border-bottom-right-radius: 1em;
   line-height: 1.5em;
@@ -74,7 +74,7 @@
   border: 2px solid #ccc;
 }
 
-#signUpMsg {
+#loginMsg {
   margin-top: 0.5em;
   font-size: 0.8em;
 }
