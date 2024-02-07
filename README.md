@@ -7,8 +7,6 @@
 <h2> Home Page </h2>
 <img src="https://github.com/BDukov/Vikings-App/assets/107854265/09e60d21-4e94-4ce6-a4ab-7cb6d19ca39f"> </img>
 <h2> Login Page </h2>
-<img src="https://github.com/BDukov/Vikings-App/assets/107854265/a6c3e248-185f-45e7-b23b-48ccb4873668"> </img>
+<img src="https://github.com/BDukov/Vikings-App/assets/107854265/13d446a4-ef4e-4caa-8fa0-cff5fe8e9839"> </img>
 <h2> Register Page </h2>
-<img src="https://github.com/BDukov/Vikings-App/assets/107854265/35953beb-f7ac-431d-9fb6-1c457c9e259c"> </img>
-
-
+<img src="https://github.com/BDukov/Vikings-App/assets/107854265/5832e629-f572-4030-93d9-88ebd7e43534"> </img>
