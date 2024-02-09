@@ -5,14 +5,24 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faUser } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import { useLogout } from "../../hooks/useLogout";
+// import { useNavigate } from "react-router-dom";
+
+import { useAuthContext } from "../../hooks/useAuthContext";
+
 library.add(faUser);
 
 export default function Header() {
+
+  const { logout } = useLogout();
+  const { user } = useAuthContext();
+  // const navigate = useNavigate();
+
   return (
     <div className="navigation">
       <div className="home">
         <Link to={`/`}>
-          <img src="./images/logo1.png" alt="" id="logo" />
+          <img src="/images/logo1.png" alt="" id="logo" />
         </Link>
         <Link to={`/home`}>Home</Link>
       </div>
@@ -36,7 +46,7 @@ export default function Header() {
           <Link to={`/register`}>
             <li>Register</li>
           </Link>
-          <li>Logout</li>
+         {user && <Link to={`/home`} onClick={logout}><li>Logout</li></Link> } 
         </ul>
       </div>
     </div>

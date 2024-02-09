@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap");
 
 .register-form {
-  height: 45em;
+  height: 50em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,6 +77,10 @@
 #loginMsg {
   margin-top: 0.5em;
   font-size: 0.8em;
+}
+
+.error-msg {
+  color:#ff5733;
 }
 
 @media (max-width: 500px) {
