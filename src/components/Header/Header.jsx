@@ -40,12 +40,16 @@ export default function Header() {
       <div className="user">
       <FontAwesomeIcon id="user-icon"icon="fa-regular fa-user" style={{color: "#fcfcfc",}} />
         <ul id="user">
-          <Link to={`/login`}>
-            <li>Login</li>
-          </Link>
-          <Link to={`/register`}>
-            <li>Register</li>
-          </Link>
+          {!user && <>
+            <Link to={`/login`}>
+              <li>Login</li>
+            </Link>
+             <Link to={`/register`}>
+              <li>Register</li>
+            </Link>
+          </>
+
+          }
          {user && <Link to={`/home`} onClick={logout}><li>Logout</li></Link> } 
         </ul>
       </div>
